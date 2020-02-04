@@ -15,17 +15,81 @@ background-color: lightskyblue;
 
 nav {
     background-color: white;
+    align-self: center;
+    
 }
 
 .navbar-light .navbar-brand {
     color: deeppink;
     background-color: white;
     font-family: prissy;
-    font-size: xx-large;
+    font-size: 35pt;
+    font-weight: bold;
 }
 
-button {
+#homeButton{
     color: deeppink;
     background-color: white;
     font-family: crayon;
+    font-size: 20pt;
+}
+
+#aboutButton{
+    color: deeppink;
+    background-color: white;
+    font-family: crayon;
+    font-size: 20pt;
+}
+
+#contactButton{
+    color: deeppink;
+    background-color: white;
+    font-family: crayon;
+    font-size: 20pt;
+}
+
+#pricingButton{
+    color: deeppink;
+    background-color: white;
+    font-family: crayon;
+    font-size: 20pt;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: deeppink;
+    font-family: crayon;
+    text-align: center;
+
+}
+
+p {
+    color: deeppink;
+    font-family: crayon;
+    text-align: center;
+    font-size: 16pt ;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shayla {
+    border-radius: 50%;
+    /* align-content: left; */
+}
+
+h5 {
+    text-align: center;
+}
+
+#bree {
+    border-radius: 50%;
 }
