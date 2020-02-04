@@ -1,7 +1,31 @@
+@font-face {
+    font-family: prissy;
+    src: url(../Assets/littlemisspriss-font/Littlemisspriss-LPlW.ttf)
+}
+
+@font-face {
+    font-family: crayon;
+    src: url(../Assets/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf)
+}
+
+
 body {
 background-color: lightskyblue;
 }
 
 nav {
     background-color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: deeppink;
+    background-color: white;
+    font-family: prissy;
+    font-size: xx-large;
+}
+
+button {
+    color: deeppink;
+    background-color: white;
+    font-family: crayon;
 }
