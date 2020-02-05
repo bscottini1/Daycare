@@ -1,11 +1,11 @@
 @font-face {
     font-family: prissy;
-    src: url(../Assets/littlemisspriss-font/Littlemisspriss-LPlW.ttf)
+    src: url(../Daycare/Assets/littlemisspriss-font/Littlemisspriss-LPlW.ttf)
 }
 
 @font-face {
     font-family: crayon;
-    src: url(../Assets/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf)
+    src: url(../Daycare/Assets/dk-crayon-crumble-font/DkCrayonCrumble-ddll.ttf)
 }
 
 
@@ -100,19 +100,26 @@ h5 {
     border-radius: 50%;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 330px) {
-    .full-text {display: none;}
-    .short-text {display: inline;}
-    .navbar-brand{font-size: large;}
+@media only screen and (max-width: 360px) {
+    #full-text {display: inline;
+        font-size: x-large;
+    }
+    #homeButton{font-size: medium;}
+    #aboutButton{font-size: medium;}
+    #contactButton{font-size: medium;}
+    #pricingButton{font-size: medium;}
+    #short-text {display: none;}
+    p {font-size: medium};
+}
+
+@media only screen and (min-width: 361px) and (max-width: 490px) {
+    #full-text {display: inline;
+        color:deeppink;
+        font-size: xx-large;}
+    #short-text {display: none;}
     }
 
-@media only screen and (min-width: 331px) and (max-width: 485px) {
-    .full-text {display: none;}
-    .short-text {display: inline;}
-    .navbar-brand{font-size: x-large;}
-    }
-
-@media only screen and (min-width: 486px) {
+@media only screen and (min-width: 491px) {
     .full-text {display: inline;}
     .short-text {display: none;}
     }
